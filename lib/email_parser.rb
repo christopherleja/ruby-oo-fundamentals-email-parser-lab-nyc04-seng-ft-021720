@@ -13,4 +13,9 @@ class EmailAddressParser
   end
 end
 
+EmailAddressParser.new
 
+
+#Get emails (a string)
+#split emails by either " " or ","
+#return array of separated email addresses
