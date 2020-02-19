@@ -12,7 +12,7 @@ class EmailAddressParser
   end
     
   def parse
-   no_commas = emails.split(", ").uniq
+    emails.split(", ").uniq = no_commas
     if no_commas.include?(" ")
       no_commas.split(" ")
   end
