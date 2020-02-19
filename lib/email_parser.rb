@@ -13,4 +13,4 @@ class EmailAddressParser
   end
 end
 
-@parse.parse
+EmailAddressParser.parse
