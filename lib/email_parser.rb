@@ -9,11 +9,11 @@ class EmailAddressParser(emails)
     
   def parse=(emails)
     @parse = emails.split(" ") && emails.split(",")
-    
+    @parse
   end
   
   def parse
     @parse
   end
-end
+
 end
