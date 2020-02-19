@@ -13,7 +13,8 @@ class EmailAddressParser
     
   def parse
     emails_without_commas = emails.gsub(","," ")
-    emails_split = emails.split.uniq 
+    emails_split = emails_without_commas.split
+    unique_emails = emails_split.uniq 
   end
 
 end
