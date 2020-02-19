@@ -13,8 +13,6 @@ class EmailAddressParser
     
   def parse
    emails.split(", ").uniq 
-   emails.collect("")
-   emails.flatten
   end
 
 end
