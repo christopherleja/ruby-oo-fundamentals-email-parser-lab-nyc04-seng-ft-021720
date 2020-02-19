@@ -12,7 +12,7 @@ class EmailAddressParser
   end
     
   def parse
-    emails.gsub.split.uniq 
+    emails.gsub().split.uniq 
   end
 
 end
