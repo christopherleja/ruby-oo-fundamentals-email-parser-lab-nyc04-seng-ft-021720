@@ -13,8 +13,7 @@ class EmailAddressParser
     
   def parse
     emails.split.collect |address|
-    if emails.
-      .uniq
+    address.flatten.uniq
   end
 
 end
