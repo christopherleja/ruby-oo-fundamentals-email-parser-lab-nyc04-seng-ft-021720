@@ -9,7 +9,7 @@ class EmailAddressParser(emails)
     
   def parse=(emails)
     @parse = emails.split(" ")
-    @parse = emails.split(" ")
+    @parse = emails.split(",")
   end
   
   def parse
