@@ -15,6 +15,4 @@ class EmailAddressParser(emails)
     @parse
   end
   
-  
-  
 end
