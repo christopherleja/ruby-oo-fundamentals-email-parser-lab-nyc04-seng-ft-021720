@@ -8,3 +8,4 @@ class EmailAddressParser(email_addresses)
   attr_accessor :emails
     
 
+end
