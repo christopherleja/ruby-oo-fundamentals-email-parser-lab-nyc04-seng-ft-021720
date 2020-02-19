@@ -16,6 +16,6 @@ class EmailAddressParser(emails)
     @parse
   end
   
-  def 
+  
   
 end
