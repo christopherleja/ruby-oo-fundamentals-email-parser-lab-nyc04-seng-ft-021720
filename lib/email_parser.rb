@@ -7,14 +7,13 @@ class EmailAddressParser
   
   attr_accessor :emails
     
+  def initialize(emails)
+    @emails = emails
+  end
+    
   def parse
-    parse = "#{emails}".split || "#{emails}".split(",")
+    @emails.split(" ", ",")
   end
 end
 
-EmailAddressParser.new
 
-
-#Get emails (a string)
-#split emails by either " " or ","
-#return array of separated email addresses
